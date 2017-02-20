@@ -1,0 +1,7 @@
+Underscores are allowed as separators between digits that denote the integer.
+
+In a hexadecimal or binary literal, the integer is only denoted by the digits after the 0x or 0b characters and before any type suffix. Therefore, underscores may not appear immediately after 0x or 0b, or after the last digit in the numeral.
+
+In a decimal or octal literal, the integer is denoted by all the digits in the literal before any type suffix. Therefore, underscores may not appear before the first digit or after the last digit in the numeral. Underscores may appear after the initial 0 in an octal numeral (since 0 is a digit that denotes part of the integer) and after the initial non-zero digit in a non-zero decimal literal.
+
+A decimal numeral is either the single ASCII digit 0, representing the integer zero, or consists of an ASCII digit from 1 to 9 optionally followed by one or more ASCII digits from 0 to 9 interspersed with underscores, representing a positive integer. 
